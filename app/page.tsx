@@ -15,7 +15,8 @@ export default function Home() {
   position={[0, 0.8, 0]}
   color="#e5e7eb"
 >
-  Welcome to Yash’s AI World
+Welcome to Yash’s AI World 🚀
+
 </Text>
 
         
