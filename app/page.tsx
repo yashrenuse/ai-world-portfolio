@@ -1,7 +1,7 @@
 "use client";
 
 import { Canvas } from "@react-three/fiber";
-import { OrbitControls, Text } from "@react-three/drei";
+import { Text } from "@react-three/drei";
 
 export default function Home() {
   return (
@@ -10,11 +10,15 @@ export default function Home() {
         <ambientLight intensity={0.5} />
         <pointLight position={[5, 5, 5]} />
 
-        <Text fontSize={0.6} position={[0, 1, 0]}>
-          Welcome to Yash’s AI World
-        </Text>
+        <Text
+  fontSize={0.55}
+  position={[0, 0.8, 0]}
+  color="#e5e7eb"
+>
+  Welcome to Yash’s AI World
+</Text>
 
-        <OrbitControls />
+        
       </Canvas>
     </div>
   );
